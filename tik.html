@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tik Tak To</title>
+    <link rel="stylesheet" href="tak.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    
+
+<div id="game_container">
+    <h1>TIK TAK TO</h1>
+    <div id="punkte_tabelle">
+        <table>
+            <tr>
+                <th class="spieler">Spieler</th> 
+                <th class="punkte">Punkte</th>
+            </tr>
+            <tr>
+                <td class="spieler">X</td>
+                <td class="punkte" id="score_X">0</td>
+            </tr>
+            <tr>
+                <td class="spieler">O</td>
+                <td class="punkte" id="score_O">0</td>
+            </tr>
+        </table>
+    </div>
+    <div id="feld_container">
+        <div feld_index="0" class="feld"></div>
+        <div feld_index="1" class="feld"></div>
+        <div feld_index="2" class="feld"></div>
+        <div feld_index="3" class="feld"></div>
+        <div feld_index="4" class="feld"></div>
+        <div feld_index="5" class="feld"></div>
+        <div feld_index="6" class="feld"></div>
+        <div feld_index="7" class="feld"></div>
+        <div feld_index="8" class="feld"></div>
+    </div>
+    <h2 id="text_status"></h2>
+    <button id="restart_button">Restarte das Game</button>
+</div>
+<script src="to.js"></script>
+</body>
+</html>
